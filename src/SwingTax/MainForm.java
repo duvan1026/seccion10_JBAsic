@@ -29,7 +29,7 @@ public class MainForm {
                 double p = Double.parseDouble(pricePane.getText());
                 double t = Double.parseDouble(taxPane.getText());
 
-                double result = p + ( p/ 108 * t );
+                double result = p + ( p/ 100 * t );
                 totalPane.setText(Double.toString(result));
 
             }

@@ -29,6 +29,8 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-4473925"/>
+          <enabled value="true"/>
           <text value="Total"/>
         </properties>
       </component>
@@ -39,7 +41,7 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-13487566"/>
+          <background color="-4473925"/>
         </properties>
       </component>
       <component id="80072" class="javax.swing.JTextPane" binding="taxPane">
@@ -49,7 +51,8 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-13487566"/>
+          <background color="-4473925"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="b9b69" class="javax.swing.JTextPane" binding="totalPane">
@@ -59,7 +62,7 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-13487566"/>
+          <background color="-4473925"/>
           <text value=""/>
         </properties>
       </component>
