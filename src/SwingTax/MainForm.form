@@ -13,7 +13,7 @@
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Precio"/>
         </properties>
       </component>
       <component id="64bf3" class="javax.swing.JLabel" binding="IVA">
@@ -21,7 +21,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="IVA"/>
         </properties>
       </component>
       <component id="1c945" class="javax.swing.JLabel" binding="Total">
@@ -29,7 +29,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <text value="Total"/>
         </properties>
       </component>
       <component id="d19c5" class="javax.swing.JTextPane" binding="pricePane">
