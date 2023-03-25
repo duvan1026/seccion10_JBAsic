@@ -1,6 +1,7 @@
 package SwingTax;
 
 import javax.swing.*;
+import java.awt.event.ActionListener;
 
 public class MainForm {
     private JPanel taxPanel;
@@ -11,6 +12,17 @@ public class MainForm {
     private JLabel IVA;
     private JLabel Total;
     private JButton buttonCalculate;
+
+
+//    public ActionListener botonPulsado(){
+//
+//    }
+
+    public MainForm(){
+
+     //   buttonCalculate.addActionListener(botonPulsado());
+
+    }
 
 
     public static void main(String[] args){
