@@ -2,6 +2,8 @@ package SwingTax;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 public class MainForm {
     private JPanel taxPanel;
@@ -22,6 +24,15 @@ public class MainForm {
 
      //   buttonCalculate.addActionListener(botonPulsado());
 
+        pricePane.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                String valorPrecio = pricePane.getText() + "Ñ";
+                pricePane.setText(valorPrecio);
+
+            }
+        });
     }
 
 
