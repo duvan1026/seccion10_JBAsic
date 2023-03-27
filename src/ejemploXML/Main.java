@@ -31,11 +31,11 @@ public class Main
                 System.out.println("Usuario: " + usuario + " Clave: " + clave);
 
                 // Vamos a mostrar el atributo "proveedor"
-                NamedNodeMap atributos = document.getElementsByTagName("videos").item(0).getAttributes();
+                NamedNodeMap atributos = document.getElementsByTagName("videos").item(0).getAttributes();// devuelve un array de atributso
 
                 for (int i = 0; i < atributos.getLength(); i++) {
-                    String atributoNombre = atributos.item(i).getNodeName();
-                    String atributoValor = atributos.item(i).getNodeValue();
+                    String atributoNombre = atributos.item(i).getNodeName();// Nombre del atributo
+                    String atributoValor = atributos.item(i).getNodeValue();// Valor del atributo
 
                     System.out.println("Atributo " + atributoNombre + " contiene " + atributoValor );
                 }

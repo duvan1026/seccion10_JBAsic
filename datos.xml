@@ -3,7 +3,7 @@
 <credenciales>
     <usuario>openbootcamp</usuario>
     <clave>EstoEs1clave^-^</clave>
-    <videos proveedor="vimeo">
+    <videos proveedor="vimeo" bootcamp="open-bootcamp">
         <video>Primera seción</video>
         <video>Segunda seción</video>
         <video>Tercera seción</video>
