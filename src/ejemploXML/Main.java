@@ -1,5 +1,6 @@
 package ejemploXML;
 
+// Librerias medio nativas para parsers XML
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
