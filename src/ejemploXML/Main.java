@@ -41,10 +41,10 @@ public class Main
                 }
 
                 // Mostramos los videos que hay asociados
-                NodeList videos = document.getElementsByTagName("videos");
+                NodeList videos = document.getElementsByTagName("videos"); // cogemos la etique del array
 
                 for (int i = 0; i < videos.getLength(); i++) {
-                    Node video = videos.item(i);
+                    Node video = videos.item(i);                // selecciona el nodo actual
                     System.out.print(video.getTextContent());
                 }
 
